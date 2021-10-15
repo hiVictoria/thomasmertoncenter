@@ -1,0 +1,121 @@
+/* HTML Elements -- sorted alphabetically*/
+*{
+    text-align: center;
+    line-height:2em;
+}
+
+h2{
+    margin-top:2em;
+}
+ul{
+    list-style-type: none;
+    letter-spacing:0em;
+}
+
+/* Classes */
+.button{
+    clear:both;
+    display: block;
+    font-size:2.5vw;
+    width: 45vw;
+    height:2vh;
+    padding-bottom:1.5em;
+}
+.campaign_title{
+    display:none;
+}
+.hidden{
+    display:block;
+
+}
+.img-2{
+    width:100%;
+    height: 13em;
+    /* code taken from https://www.codegrepper.com/code-examples/css/how+to+crop+an+image+instead+of+resize+it+with+css */
+    /* centering and cropping the images */
+    object-fit:cover;
+    object-position: 0 50%;
+    padding-bottom:3em;
+}
+.relative{
+    width:80%;
+
+}
+.right{
+    padding-right:0em;
+    margin:auto;
+    width:94%;
+    float:none;
+}
+
+
+/* IDs */
+#dpf{
+    display:none;
+}
+#footer{
+    font-size:.8em;
+}
+#hero{
+    width:100%;
+    height:18em;
+    padding:0%;
+    margin:0%;
+}
+#logo{
+    width:3.5em;
+    height:3.5em;
+    float:left;
+    margin:.5em auto 0em auto;
+    
+}
+#menu{
+    display:block;
+    float:right;
+    width:3em;
+    height:2em;
+    margin:1.4em 1.7em 0em 0em;
+}
+#nav{
+    float:none;
+    background-color:black;
+    border-bottom: solid white .1em;
+    position: sticky;
+    top: 0%;
+    height:5em;
+    padding-top:0em;
+    padding-right:.5em;
+    z-index: 100;
+    margin:0em;
+    width:100%;
+    text-align: center;
+}
+#nav a{
+    display:none;
+}
+#small{
+    margin: 5em auto 1.5em auto;
+}
+#spacer{
+    height:15em;
+}
+#textbox{
+    width:33%;
+    height:16vh;
+    padding:1vh;
+    right:0em;
+    padding-left:1.5em;
+
+}
+#TMC_banner{
+    width:94%;
+    height:30%;
+    top:-6em;
+    margin:auto;
+
+}
+#TMC_banner h1{
+    line-height:1em;
+    letter-spacing:.5em;
+    font-size:5vw;
+}

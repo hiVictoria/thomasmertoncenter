@@ -1,0 +1,109 @@
+/* HTML Elements -- sorted alphabetically*/
+ul li {
+    display: inline;
+    padding: 2em .5em 1em .5em;
+}
+
+/* Classes */
+.button{
+    clear:both;
+    width: 32vw;
+    font-size:.9em;
+}
+.campaign_title{
+    display:none;
+}
+.hidden{
+    display:inline;
+    float:left;
+}
+.relative{
+    width:80%;
+    margin:auto;
+}
+.right{
+    padding-right:0em;
+    margin:auto;
+    width:94%;
+    float:none;
+}
+
+/* IDs */
+#dpf{
+    margin-left:10em;
+}
+#footer{
+    font-size:.9em;
+    }
+#logo{
+    display:inline;
+    float:left;
+    width:8vw;
+    height:8vw;
+    margin-top:.5em;
+    margin-bottom:1em;
+    margin-left:0em;
+}
+#hero{
+
+    width:100%;
+    height:25em;
+    padding:0%;
+    margin:0%;
+}
+#nav{
+    float:none;
+    background-color:black;
+    position: sticky;
+    top: 0%;
+    height:12vh;
+    padding-top:0em;
+    z-index: 100;
+    width:100%;
+    padding: 0em 0em 0em 1em;
+    text-align: center;
+    border-bottom: solid white 2px;
+}
+#nav a{
+    color:white;
+    text-decoration: none;
+    font-size:2vw;
+    width:100%;
+}
+#phone{
+    display:none;
+}
+#pic1{
+    width:100%;
+    height: 13em;
+    object-fit:cover;
+    object-position: 0 50%;
+}
+#pic2, #pic3{
+    display:inline;
+    height: 13em;
+    margin: auto;
+    margin-bottom:5em;
+    width: 50%;
+    
+/* code taken from https://www.codegrepper.com/code-examples/css/how+to+crop+an+image+instead+of+resize+it+with+css */
+/* centering and cropping the images */
+    object-fit:cover;
+    object-position: 0 30%;
+}
+#textbox{
+    right:0em;
+}
+#TMC_banner{
+    width:94%;
+    top:0em;
+}
+
+#TMC_banner h1{
+    font-size:3vw;
+    letter-spacing:.5em;
+}
+
+#spacer{
+    height:22em;
+}
